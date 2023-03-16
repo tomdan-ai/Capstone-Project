@@ -243,7 +243,8 @@ li {
 }
 
 .logo a img {
-  width: 60%;
+    width: 40%;
+    margin-bottom: -15px;
 }
 
 .navbar-right {
@@ -355,14 +356,14 @@ nav.glue {
 
 /* ============== invitation section ============ */
 .invitation {
-  background-image: url("./img/invitationbackg-1.png");
+  background-image: url("images/Headbkg.jpg");
   background-size: cover;
   background-position: center;
   overflow: hidden;
 }
 
 .overlay {
-  background-color: var(--background-color);
+  background-color: var(#97989b);
 }
 
 .invitation-bg {
@@ -379,14 +380,12 @@ nav.glue {
 }
 
 .invitation-content h1 {
-  color: var(--theme);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-image: url(./img/font-color.jpg);
-  font-weight: 900;
-  font-size: 50px;
-  line-height: 1;
-  margin-bottom: 1rem;
+  font-size: 40px;
+  background-image: url(images/Header.jpg);
+    -webkit-text-fill-color: rgba(0, 0, 0, 0);
+    color: transparent;
+    -webkit-background-clip: text;
+    font-family: "Lato", sans-serif;
 }
 
 .invitation-content p {
@@ -416,7 +415,7 @@ nav.glue {
 /* ======== Program css =========== */
 .activity {
   background-color: var(--navy);
-  background-image: url(./img/cross.svg);
+  background-image: url(./images/cross.svg);
   background-size: 32px;
   color: var(--white-color);
   padding: 1rem 0;
@@ -449,9 +448,10 @@ nav.glue {
 }
 
 .activity-list {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-  gap: 1rem;
+    flex-direction: column;
+    display: flex;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 1rem;
 }
 
 .activity-item {
@@ -707,6 +707,9 @@ q {
 
 /* ======= landing section ===== */
 .landing {
+    background-image: url("images/speaker-giving-talk.jpg");
+    background-size: cover;
+    background-repeat: none;
   background-color: var(--gray-color-2);
   color: var(--ash);
   padding: 5rem 0;
@@ -723,15 +726,17 @@ q {
 .about-content .about-welcome-text {
   color: var(--theme);
   font-weight: 400;
-  margin-bottom: 0.5rem;
+  margin-bottom: 88px;
+  margin-top: -66px;
 }
 
 .about-content h1 {
   color: var(--theme);
-  font-size: 36px;
+  font-size: 50px;
   font-weight: 900;
   line-height: 1;
   margin-bottom: 3rem;
+  margin-top: -78px;
 }
 
 .about-content .about-p {
@@ -743,7 +748,12 @@ q {
   color: var(--half-color);
 }
 
+.contact-message {
+    color: #fff;
+}
+
 .emailBtn {
+    color: #fff;
   text-decoration: underline;
   font-weight: 600;
   transition: all 0.2s ease-in-out;
@@ -837,13 +847,13 @@ q {
 }
 
 .card-1 {
-  background-image: url('./img/Sustainability-Track-Header.jpeg');
+  background-image: url('./images/Summit1.jpeg');
   background-position: center;
   background-size: cover;
 }
 
 .card-2 {
-  background-image: url('./img/pic_cad.png');
+  background-image: url('./images/summit\ 2.jpeg');
   background-position: center;
   background-size: cover;
 }
@@ -884,6 +894,10 @@ q {
 .footer-content .footer-adress {
   font-size: 12px;
   font-weight: 500;
+}
+
+.ft-logo {
+    width: 100px;
 }
 
 /* ================= media query =============== */
@@ -965,14 +979,21 @@ q {
   }
 
   .invitation-content h1 {
-    color: var(--theme);
-    font-weight: 900;
-    font-size: 60px;
-    line-height: 1;
-    margin-bottom: 1rem;
+    background-image: url(images/Header.jpg);
+    -webkit-text-fill-color: rgba(0, 0, 0, 0);
+    color: transparent;
+    -webkit-background-clip: text;
+    font-family: "Lato", sans-serif;
   }
 
   /* activity section */
+
+  .activity-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 1rem;
+  }
+
   .activity-item {
     flex-direction: column;
     padding: 1rem 0;
@@ -982,7 +1003,7 @@ q {
   .activity-content .red-line {
     border: 1px solid var(--theme);
     width: 40px;
-    margin-left: 45%;
+    margin-left: 48%;
     margin-top: 5.5px;
   }
 
@@ -1037,7 +1058,7 @@ q {
   .partner-title .red-line {
     border: 1px solid var(--theme);
     width: 40px;
-    margin-left: 47%;
+    margin-left: 48%;
     margin-top: 5.5px;
   }
 
@@ -1053,12 +1074,40 @@ q {
 
   .logo-exposition-content .logo-exposition-l {
     border: 1px solid var(--gray-color-2);
+    box-shadow: rgba(222, 222, 222, 0.82) 0px 5px 5px, rgba(222, 222, 222, 0.82) 0px 5px 5px;
+    padding-top: 50px;
+    border-width: 3px;
+    border-style: solid;
+    border-color: rgb(255, 255, 255);
+    padding-bottom: 50px;
     width: 50%;
     height: 46%;
   }
 
   .logo-exposition-content .logo-exposition-l img {
-    width: 100%;
-    height: 20vw;
+    width: 50%;
+    height: 8vw;
   }
+
+.footer {
+    background-color: #0e111a;
+}
+
+  .footer-adress {
+    margin-top: 40px;
+  }
+
+  .footer-adress p {
+    color:#fff;
+    margin-left: 40px;
+  }
+
+  .ft-logo {
+    width: 190px;
+    margin-top: 24px;
+    margin-left: -55px;
+    margin-bottom: 17px;
+    margin-bottom: -20px;
+}
+
 }
