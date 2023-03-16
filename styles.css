@@ -243,8 +243,8 @@ li {
 }
 
 .logo a img {
-    width: 40%;
-    margin-bottom: -15px;
+  width: 40%;
+  margin-bottom: -15px;
 }
 
 .navbar-right {
@@ -382,10 +382,10 @@ nav.glue {
 .invitation-content h1 {
   font-size: 40px;
   background-image: url(images/Header.jpg);
-    -webkit-text-fill-color: rgba(0, 0, 0, 0);
-    color: transparent;
-    -webkit-background-clip: text;
-    font-family: "Lato", sans-serif;
+  -webkit-text-fill-color: rgba(0, 0, 0, 0);
+  color: transparent;
+  -webkit-background-clip: text;
+  font-family: "Lato", sans-serif;
 }
 
 .invitation-content p {
@@ -448,10 +448,10 @@ nav.glue {
 }
 
 .activity-list {
-    flex-direction: column;
-    display: flex;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-    gap: 1rem;
+  flex-direction: column;
+  display: flex;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 1rem;
 }
 
 .activity-item {
@@ -707,9 +707,9 @@ q {
 
 /* ======= landing section ===== */
 .landing {
-    background-image: url("images/speaker-giving-talk.jpg");
-    background-size: cover;
-    background-repeat: none;
+  background-image: url("images/speaker-giving-talk.jpg");
+  background-size: cover;
+  background-repeat: none;
   background-color: var(--gray-color-2);
   color: var(--ash);
   padding: 5rem 0;
@@ -749,11 +749,11 @@ q {
 }
 
 .contact-message {
-    color: #fff;
+  color: #fff;
 }
 
 .emailBtn {
-    color: #fff;
+  color: #fff;
   text-decoration: underline;
   font-weight: 600;
   transition: all 0.2s ease-in-out;
@@ -897,7 +897,7 @@ q {
 }
 
 .ft-logo {
-    width: 100px;
+  width: 100px;
 }
 
 /* ================= media query =============== */
@@ -1074,7 +1074,7 @@ q {
 
   .logo-exposition-content .logo-exposition-l {
     border: 1px solid var(--gray-color-2);
-    box-shadow: rgba(222, 222, 222, 0.82) 0px 5px 5px, rgba(222, 222, 222, 0.82) 0px 5px 5px;
+    box-shadow: rgba(222, 222, 222, 0.82) 0 5px 5px, rgba(222, 222, 222, 0.82) 0 5px 5px;
     padding-top: 50px;
     border-width: 3px;
     border-style: solid;
@@ -1089,16 +1089,16 @@ q {
     height: 8vw;
   }
 
-.footer {
+  .footer {
     background-color: #0e111a;
-}
+  }
 
   .footer-adress {
     margin-top: 40px;
   }
 
   .footer-adress p {
-    color:#fff;
+    color: #fff;
     margin-left: 40px;
   }
 
@@ -1108,6 +1108,5 @@ q {
     margin-left: -55px;
     margin-bottom: 17px;
     margin-bottom: -20px;
-}
-
+  }
 }
