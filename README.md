@@ -54,7 +54,7 @@ Click <a href="https://tomdan-ai.github.io/Capstone-Project/index.html">Here</a>
 
 ## Live demo walkthrough
  
-[Live Demo video from loom ](https://www.loom.com/share/9630c5d25918478697aea7fa71fc0706)
+[Live Demo video from loom ](https://www.loom.com/share/76a3bfdeabaf40169fecb6fe5a9545cc)
 
 ## Getting Started
 
