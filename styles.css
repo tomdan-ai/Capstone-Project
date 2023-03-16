@@ -702,3 +702,363 @@ q {
   backdrop-filter: blur(0.7rem);
   opacity: 0.3;
 }
+
+/* ::::::::::======= About us page ======::::::::: */
+
+/* ======= landing section ===== */
+.landing {
+  background-color: var(--gray-color-2);
+  color: var(--ash);
+  padding: 5rem 0;
+}
+
+.about-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.about-content .about-welcome-text {
+  color: var(--theme);
+  font-weight: 400;
+  margin-bottom: 0.5rem;
+}
+
+.about-content h1 {
+  color: var(--theme);
+  font-size: 36px;
+  font-weight: 900;
+  line-height: 1;
+  margin-bottom: 3rem;
+}
+
+.about-content .about-p {
+  background-color: var(--white-color);
+  padding: 0.5rem;
+  border: 1px solid var(--gray-color);
+  margin-bottom: 1rem;
+  font-weight: 300;
+  color: var(--half-color);
+}
+
+.emailBtn {
+  text-decoration: underline;
+  font-weight: 600;
+  transition: all 0.2s ease-in-out;
+}
+
+.emailBtn i {
+  margin-left: 0.3rem;
+}
+
+.emailBtn:hover {
+  color: var(--theme);
+}
+
+/* ======= Logo exposition css ===== */
+.logo-exposition {
+  padding: 3rem 0;
+  background-color: var(--white-color);
+  border-bottom: 1px solid var(--gray-color);
+}
+
+.logo-exposition-content {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.logo-exposition-content .logo-exposition-title {
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+  color: var(--ash);
+}
+
+.logo-exposition-content .logo-exposition-title .red-line {
+  border: 1px solid var(--theme);
+  width: 40px;
+  margin-left: 47%;
+  margin-top: 5.5px;
+}
+
+.logo-exposition-content .logo-exposition-p {
+  margin-bottom: 2rem;
+  max-width: 40rem;
+  color: var(--half-color);
+}
+
+.logo-exposition-content .logo-exposition-l {
+  border: 1px solid var(--gray-color-2);
+  width: 87%;
+  height: 46%;
+}
+
+/* history section css */
+.history {
+  padding: 3rem 0;
+  text-align: center;
+}
+
+.history .history-content-desc {
+  margin-bottom: 1.5rem;
+}
+
+.history-title {
+  margin-bottom: 0.2rem !important;
+  display: flex;
+  flex-direction: column;
+  font-size: 30px;
+  margin-top: -3rem;
+}
+
+.history-cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.history-card {
+  color: var(--white-color);
+  position: relative;
+}
+
+.card-overlay {
+  width: 100%;
+  padding: 4rem 1rem;
+  background-color: rgba(236, 82, 66, 0.7);
+}
+
+.card-1 {
+  background-image: url('./img/Sustainability-Track-Header.jpeg');
+  background-position: center;
+  background-size: cover;
+}
+
+.card-2 {
+  background-image: url('./img/pic_cad.png');
+  background-position: center;
+  background-size: cover;
+}
+
+.history-card-title {
+  font-weight: 900;
+}
+
+.history-card-p {
+  font-size: 14px;
+}
+
+/* ======== Footer section css ========== */
+.footer {
+  color: var(--ash);
+  padding: 1rem 0;
+}
+
+.about-footer {
+  color: white;
+  background-color: var(--ash) !important;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.footer-content .footer-logo {
+  max-width: 30%;
+}
+
+.footer-content .footer-logo h1 {
+  font-size: 20px;
+}
+
+.footer-content .footer-adress {
+  font-size: 12px;
+  font-weight: 500;
+}
+
+/* ================= media query =============== */
+@media screen and (min-width: 768px) {
+  /* top navbar */
+  .login-popup {
+    position: absolute;
+    top: 1.5rem;
+    right: 3.5rem;
+  }
+
+  /* ===== navbar ====== */
+
+  .top-header {
+    /* background-color: var(--ash); */
+    color: white;
+    padding: 0.1rem 0;
+    position: relative;
+    overflow: hidden;
+    display: block;
+    background:
+      linear-gradient(
+        50deg,
+        var(--navy) 0%,
+        var(--navy) 50%,
+        var(--half-color) 50%,
+        var(--half-color) 100%
+      );
+  }
+
+  .navbar-right {
+    position: relative;
+    padding: 0;
+    background: transparent;
+    backdrop-filter: none;
+    transform: translateX(0);
+    transition: transform 0.4s;
+  }
+
+  .menu-btn {
+    display: none;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+    margin-right: 0;
+    transition: all 0.5s ease-in-out;
+    z-index: 999;
+  }
+
+  .navbarItems {
+    flex-direction: row;
+    gap: 2rem;
+  }
+
+  .navbarItems li {
+    font-size: 16px;
+  }
+
+  .navbarItems li:hover {
+    color: var(--theme);
+  }
+
+  .btn-nav {
+    border: 4px solid var(--theme);
+    color: var(--theme);
+    margin-left: 5rem;
+  }
+
+  .btn-nav:hover {
+    background-color: var(--theme);
+    color: var(--white-color);
+  }
+
+  .invitation-bg {
+    background-image: url('./img/bkgrnd.png');
+  }
+
+  .invitation-content h1 {
+    color: var(--theme);
+    font-weight: 900;
+    font-size: 60px;
+    line-height: 1;
+    margin-bottom: 1rem;
+  }
+
+  /* activity section */
+  .activity-item {
+    flex-direction: column;
+    padding: 1rem 0;
+    text-align: center;
+  }
+
+  .activity-content .red-line {
+    border: 1px solid var(--theme);
+    width: 40px;
+    margin-left: 45%;
+    margin-top: 5.5px;
+  }
+
+  .activity-item .activity-item-text {
+    width: 100%;
+  }
+
+  .logo a {
+    display: block;
+    font-weight: 900;
+  }
+
+  .activity-btn {
+    display: none;
+  }
+
+  .activity-btn-b {
+    display: block;
+  }
+
+  /* guest section css */
+  .guest-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    padding: 1rem 5rem;
+    height: auto;
+  }
+
+  .more-guest {
+    display: none;
+  }
+
+  .guest-item {
+    display: flex;
+    gap: 1rem;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    position: relative;
+    background-image: url(./img/cheq.png);
+    background-size: 21% 31%;
+    background-repeat: no-repeat;
+  }
+
+  .guest-item .guest-item-img img {
+    margin-top: 15px;
+    width: 60%;
+    position: relative;
+    margin-left: 12px;
+  }
+
+  .partner-title .red-line {
+    border: 1px solid var(--theme);
+    width: 40px;
+    margin-left: 47%;
+    margin-top: 5.5px;
+  }
+
+  /* ============ about page ======== */
+  .about-p {
+    max-width: 40rem;
+    margin-bottom: 2rem !important;
+  }
+
+  .history-cards {
+    flex-direction: row;
+  }
+
+  .logo-exposition-content .logo-exposition-l {
+    border: 1px solid var(--gray-color-2);
+    width: 50%;
+    height: 46%;
+  }
+
+  .logo-exposition-content .logo-exposition-l img {
+    width: 100%;
+    height: 20vw;
+  }
+}
