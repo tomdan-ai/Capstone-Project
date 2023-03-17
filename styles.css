@@ -374,13 +374,14 @@ nav.glue {
 }
 
 .invitation-content .welcome {
+  font-size: 40px;
   color: var(--theme);
   font-weight: 400;
   margin-bottom: 0.5rem;
 }
 
 .invitation-content h1 {
-  font-size: 40px;
+  font-size: 70px;
   background-image: url(images/Header.jpg);
   -webkit-text-fill-color: rgba(0, 0, 0, 0);
   color: transparent;
@@ -402,13 +403,14 @@ nav.glue {
 }
 
 .invitation-content .realTime {
-  color: var(--ash);
+  color: var(--white-color);
   font-weight: 900;
   font-size: 30px;
 }
 
 .invitation-content .venue {
-  font-size: 14px;
+  color: var(--white-color);
+  font-size: 16px;
   font-weight: 500;
 }
 
@@ -477,7 +479,7 @@ nav.glue {
 }
 
 .activity-img {
-  max-width: 100px;
+  width: 70%;
 }
 
 .activity-item .activity-item-text {
