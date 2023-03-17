@@ -102,7 +102,7 @@ Give a ⭐️ if you like this project! and follow
 
 ## Acknowledgments
 
-- I am grateful to My partners and Amarachi Dimpka
+- I am grateful to My partners and Amarachi Dimpka for the Design
 
 ## 📝 License
 
