@@ -21,7 +21,7 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Capstone Project] <a name="about-project">https://tomdan-ai.github.io/Capstone-Project/index.html</a>
+# 📖 [Capstone Project] <a name="about-project">https://tomdan-ai.github.io/Capstone-Project/</a>
 
 
 
@@ -45,7 +45,7 @@ This Capstone Project is based on an online website for a conference for develop
 
 ## Live Demo
 
-Click <a href="https://tomdan-ai.github.io/Capstone-Project/index.html">Here</a> to view live demo
+Click <a href="https://tomdan-ai.github.io/Capstone-Project/">Here</a> to view live demo
 
 ## Live demo walkthrough
  
