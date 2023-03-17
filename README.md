@@ -3,7 +3,7 @@
 <!-- TABLE OF CONTENTS -->
 
 # 📗 Table of Contents
-- [📖 Title](#Team Event)
+- [📖 Title](#Global Developers Conference)
 - [📖 About the Project](#about-project)
   - [🛠 Built With](#built-with)
     - [Key Features](#key-features)
@@ -25,7 +25,7 @@
 
 
 
-# Team Event
+# Global Developers Conference
 This Capstone Project is based on an online website for a conference for developers round the world. 
  You will learn how to use the different niche in tech to empower, enlighthen and grow to a succesful career in the Tech field. 
 
@@ -36,17 +36,12 @@ This Capstone Project is based on an online website for a conference for develop
 - JavaScript
 
 ### Key Features <a name="key-features">
-- **[key_feature_1]** Capstone Project: built with CSS, HTML and JavaScript.
-- **[key_feature_2]** Capstone Project: Mobile Version.
-- **[key_feature_3]** Capstone Project: The Homepage.
-- **[key_feature_4]** Capstone Project: Desktop version.
-- **[key_feature_5]** Capstone Project: About page for both mobile and desktop version.
+- **[]** Capstone Project: built with CSS, HTML and JavaScript.
+- **[]** Capstone Project: Mobile Version.
+- **[]** Capstone Project: The Homepage.
+- **[]** Capstone Project: Desktop version.
+- **[]** Capstone Project: About page for both mobile and desktop version.
 
-
-### Home page
-
-[screenshot for desktop version](./img/desktop-screen-shot.png) 
-[screenshot for mobile version](./img/mobile-screen-shot.png)
 
 ## Live Demo
 
